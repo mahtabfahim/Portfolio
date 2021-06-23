@@ -1,0 +1,26 @@
+fonts-color: black #22222b
+             ash   #7f7f82
+             light_ash #7f7f82
+             white #ffffff
+
+
+xxl-md
+padding-top: 100         
+padding-bottom: 120
+
+768 and up
+padding-top: 11px;
+padding-bottom: 28px;
+
+576 and up
+padding-top: 60px
+padding-bottom: 80px
+
+325 and up
+padding-top: 50px
+padding-bottom: 70px
+
+
+
+md-xxl       sm     col
+h1 32 px     32px   26 

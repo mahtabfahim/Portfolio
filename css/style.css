@@ -1,0 +1,489 @@
+/*@font-face{
+	src:url(../fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+@font-face{
+	src:url(../fonts/Roboto-Medium.ttf);
+	font-family: Roboto-Medium:;
+}
+@font-face{
+	src:url(../fonts/Roboto-Light.ttf);
+	font-family: Roboto-Light;
+}
+@font-face{
+	src:url(../fonts/Roboto-Italic.ttf);
+	font-family: Roboto-Italic;
+}*/
+
+body{
+	font-family: Roboto-Regular, sans-serif;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*header start*/
+header{
+background-color: #E9D7D3 !important;
+width: 100%;
+}
+.navbar{
+	width: 100%;
+}
+.logo{}
+.menu{
+	width: 100%;
+}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	color: #22222b!important;
+	margin: 0 10px !important;
+	transition: .3s !important;
+	/*display: inline-block;*/
+	border-bottom: 1px transparent !important;
+}
+.menu ul li:last-child a{
+	margin-right: 0 !important; 
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid black !important;
+	/*font-weight: 700 !important;*/
+}
+
+
+/*header end
+/*hero start*/
+.hero{
+}
+.hero img{
+	height: 20px
+	width: 100%;
+}
+
+.c_p_0{
+	padding: 0;
+}
+
+.text1{
+	margin-top: -421px;
+	font-family: Roboto-Medium,sans-serif;
+	font-size: 60px;
+	color: #000000;
+}
+
+/*hero end*/
+/*about me start*/
+.about{
+	width: 100%;
+	padding-top: 100 !important;
+  padding-bottom: 120 !important;
+}
+.me{
+ margin: 72px 0px 0 123px;
+}
+.a_detail{
+
+}
+.s_h1{
+	margin-bottom: 15px;
+	width: 100%;
+	font-family: Roboto-Medium,sans-serif;
+	font-size: 48px;
+	color: #22222b;
+	display: block;
+
+}
+.s_p{
+	font-size: 16px;
+	color: #7f7f82;
+}
+/*progress bar start*/
+.progress-title{
+	width: 100%;
+	height: auto;
+}
+.progress-title h3{
+
+	font-size: 18px;
+	font-weight: 700;
+	color: #22222b;
+	margin: 0 0 20px;
+}
+.progress{
+	height: 11px;
+	border-radius: 20px;
+	border: 1px solid #000;
+	box-shadow: 0 2px 2px #4f4c4c;
+	margin-bottom: 40px;
+	overflow: visible;
+	position: center;
+}
+.progress .progress-bar{
+	border-radius: 20px;
+	border: 1px solid #000;
+	animation: animate-positive 5s;
+}
+.progress .progress-value{
+	width: 65px;
+	height: 25px;
+	line-height: 25px;
+	background: #171b3c;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 0 0 15px 15px;
+	border: 1px solid #000;
+	border-top: none;
+	box-shadow: 0 2px 2px #4f4c4c;
+	position: absolute;
+	/*bottom: 2px;*/
+	right: 140px;
+}
+
+@-webkit-keyframes animate-positive{
+	0%{
+		width: 0;
+	}
+}
+@-webkit-keyframes animate-positive{
+	0%{
+		width: 0;
+	}
+}
+/*progress bar end*/
+
+/*about me end/
+
+/*service start*/
+
+.service{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.c_title{
+
+}
+.m_top{
+	margin-top: 65px;
+}
+.c_h1{
+	margin-bottom: 15px;
+	font-size: 36px;
+	font-weight: 400;
+	color: #22222b;
+}
+.c_p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #7f7f82;
+}
+.s_s_topicon{
+
+}
+.s_s_topicon i{
+	font-size: 50px;
+	color: #1d232e;
+	padding: 10px;
+	background-color: white;
+}
+.s_s_h2{
+	font-size: 22px;
+	color: #22222b;
+}
+.s_s_p{
+	margin-top: 15px;
+	font-size: 14px;
+	color: #7f7f82; 
+}
+.s_s_a{
+	font-size: 14px;
+	color:  #22222b;
+}
+.s_hover:hover{
+	color: #333333 !important;
+}
+
+/*service end
+/*portfolio start*/
+.portfolio{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #ffffff;
+}
+.tabs{
+	border:none;
+
+}
+.ui-widget.ui-widget-content {
+    border: none;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: 0px;
+}
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 0px;
+    background: #ffffff;
+}
+.ui-widget-header {
+    border: none; 
+    background: #ffffff;
+    /* color: #333333; */
+    font-weight: bold;
+}
+.ui-tabs {
+    position: relative;
+    padding: 0;
+    background-color: #ffffff;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 11px;
+    padding-bottom: 0px;
+
+}
+.ui-widget {
+    font-family: Roboto-Regular,sans-serif;
+    font-size: 14px;
+}
+
+
+.m_p{
+	
+}
+.r_tabs{}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #258c8c;
+    background: #258c8c;
+    font-weight: normal;
+    color: #ffffff;
+}
+.tab_img{
+	padding: 10px 9px;
+}
+/*portfolio end*/
+/*hire start*/
+.hire{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.hire_h3{
+    margin: -250px 0 0 0px;
+    font-size: 22px;
+     color: #ffffff;
+}
+.hire_h2{
+	font-size: 48px;
+	color: #ffffff;
+}
+.btn {
+	
+}
+
+/*hire end*/
+/*testimonial start*/
+.testimonials{
+padding-top: 100px;         
+padding-bottom: 120px;
+}
+.row.heading h2 {
+    color: #22222b;
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 400;
+    text-align: center;
+}
+	
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading {
+    display: block;
+}
+.padding-lg {
+	display: block;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+.our-webcoderskull{
+ /* background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
+  */
+}
+.our-webcoderskull .cnt-block{ 
+  float: left;
+    width: 100%;
+    background: #fff;
+    padding: 21px 0px 0px 0px;
+    text-align: center;
+    border: 2px solid #d5d5d5;
+    margin: 0px 0 40px;
+}
+
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   font-family: Roboto-Italic, sans-serif;
+   color: #7f7f82;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*testmonial end*/
+/*counterup start*/
+.counterup{
+
+}
+.counter-img{
+	width: 100%;
+}
+.counter {
+    margin: -206px 0 0 0;
+}
+
+.count-title {
+	font-family: Roboto-Medium,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+/*counter up end*/
+/*contact start*/
+.contact{
+padding:100px;
+}
+.c_form{
+	margin: 60px 0 20px;
+}
+.c_m_b{
+	margin-bottom: 20px;
+}
+.c_name, .c_email, .c_message{
+	border: none;
+	border-bottom: 1px solid #22222b;
+	border-radius: 0;
+	padding: 19px 0px;
+}
+.c_name, .c_email, .c_message::-webkit-input-placeholder{
+	font-family: Roboto-Regular,sans-serif;
+	font-size: 14px;
+	color: #7f7f82;
+
+}
+
+.c_name:focus, .c_email:focus, .c_message:focus{
+    border-color: #22222b;
+    outline: 0;
+    box-shadow: none;
+}
+.btn_c_submit{
+	font-family: Roboto-Regular,sans-serif;
+	font-size: 16px;
+	margin: 32px 0 0 0px;
+	background-color: #ffffff;
+	width: 195px;
+	height: 50px;
+	border:1px solid #22222b;
+	transition: .3s;
+}
+.btn_c_submit:hover{
+	background: #1C1A41;
+	color: #ffffff;
+}
+
+
+/*contact end*/
+/*footer start*/
+footer{
+	padding-top: 5px;
+	background-color: #22222b !important;
+	width: 100%;
+}
+.f_h1{
+	font-family: Roboto-Regular,sans-serif;
+	font-size: 16px;
+	margin: 32px 0 0 0px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.f_ul{
+	margin: 31px 0 0 0;
+}

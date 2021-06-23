@@ -1,0 +1,334 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){ 
+	/*header start*/
+	.logo{
+    height: 26px;
+}
+	.menu ul li{
+	margin: 0 0px !important;
+	text-align: right;}
+	.menu ul li a {
+    font-size: 14px;
+}
+	/*header end*/
+	/*hero start*/
+.text1{
+    margin-top: -205px;
+    font-family: Roboto-Medium,sans-serif;
+    font-size: 24px;
+    color: #000000;
+}
+.hero img {
+    width: 100%;
+    min-height: 350px;
+}
+/*about me start*/
+.about{
+    width: 100%;
+    padding-top: 0px !important;
+    padding-bottom: 11px !important;
+}
+.me{
+    margin: 72px 0px 0 -11px !important;
+    height: 318px !important;
+}
+.s_h1{
+    margin: 24px 0 0 -7px !important;
+    /* margin-bottom: 16px !important; */
+    font-size: 29px !important;
+}
+.s_p{
+    margin: 9px 0 0 -7px !important;
+    font-size: 13px !important;
+}
+/*.me {
+    height: 320px !important;
+
+}*/
+/*about me end*/
+
+	/*hero end*/
+		/*about me end*/
+	     /*service start*/
+     .service{
+     	padding-top: 50px;
+     	padding-bottom: 70px;
+     }
+     .c_h1{
+    font-size: 26px;
+}
+.c_p{
+    font-size: 17px;
+    letter-spacing: 0;
+    word-spacing: 0;
+   
+}
+.m_top{
+    margin-top: 30px;
+}
+.s_s_topicon i{
+    font-size: 45px;
+    padding: 5px;
+}
+     /*service end*/
+     /*portflio start*/
+     .portfolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+     /*portfolio end*/
+     /*hire start*/
+
+.hire_h3{
+    margin: -77px 0 0 0px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.hire_h2{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+     /*hire end*/
+	}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+		/*header start*/
+	.menu ul li{
+	margin: 0 0px !important;
+	text-align: right;
+}
+	/*hero start*/
+.text1{
+	margin-top: -205px;
+	font-family: Roboto-Medium,sans-serif;
+	font-size: 34px;
+	color: #000000;
+}
+.hero img{
+    width: 100%;
+    min-height: 373px;
+}
+	/*hero end*/
+
+	/*header end*/
+	/*about me start*/
+	.about{
+    padding-top: 1px;
+    padding-bottom: 24px;
+}
+/*.me {
+    margin: 72px 0px 0 83px !important;
+}*/
+.s_h1{
+    margin: 24px 0 0 162px;
+    margin-bottom: 16px;
+    font-size: 35px;
+}
+/*.s_p {
+    margin: 9px 0 0 88px !important;
+    font-size: 13px !important;
+}
+*/
+.progress-title{
+    margin: 18px 0 0 -6px !important;
+    width: 72% !important;
+}
+.progress-title h3{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 1px;
+}
+/*.progress-title {
+    margin: 0 0 0 131px !important;
+    width: 72% !important;
+}*/
+.progress .progress-value{
+  
+    right: 22px;
+}
+
+	/*about me end*/
+	     /*service start*/
+     .service{
+     	padding-top: 60px;
+     	padding-bottom: 80px;
+     }
+     .m_top{
+    margin-top: 40px;
+    /*service end*/
+}
+     /*hire start*/
+    .hire_h3{
+    margin: -133px 0 0 0px;
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+.hire_h2{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/*hire end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+	/*header start*/
+.logo{
+    height: 32px;
+}
+.menu ul li{
+	margin: 0 0px !important;
+	text-align: right;
+}
+	/*header end*/
+	/*hero start*/
+.text1{
+    margin-top: -204px;
+    font-family: Roboto-Medium,sans-serif;
+    font-size: 44px;
+    color: #000000;
+}
+	/*hero end*/
+	/*about me start*/
+.about{
+    padding-top: 11px !important;
+    padding-bottom: 28px !important;
+}
+
+.s_p{
+    margin: 9px 0 0 46px !important;
+    font-size: 13px !important;
+}
+.progress-title{
+    margin: 20px 0 0 99px !important;
+    width: 72% !important;
+}
+.progress-title h3{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 -54px;
+}
+
+.progress{
+    margin: 0 0 0 -54px;
+}
+.progress .progress-value{
+    right: 115px;
+}
+     /*about me end*/
+     /*service start*/
+.service{
+     	padding-top: 80px;
+     	padding-bottom: 100px;
+     }
+.m_top{
+    margin-top: 50px;
+}
+     /*service end*/
+     /*hire start*/
+.hire_h3{
+    margin: -169px 0 0 0 !important;
+    font-size: 22px !important;
+}
+.hire_h2{
+    font-size: 40px !important;
+  
+}
+
+
+}
+     /*hire end*/
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+		/*hero start*/
+.text1{
+	margin-top: -275px;
+	font-family: Roboto-Medium,sans-serif;
+	font-size: 55px;
+	color: #000000;
+}
+
+	/*hero end*/
+	/*about me start*/
+.a_detail{
+	   margin: 0 0 0 475px;
+
+}
+.s_h1{
+	margin: 24px 0 0 0px;
+    margin-top: 63px;
+}
+.s_p{
+    margin: 21px 0px 0px 0px;
+}
+.progress-title{
+    width: 90%;
+ }
+ .progress .progress-value{
+    right: 13px;
+}
+	/*about me end*/
+    /*portfolio start*/
+.m_p{
+    margin-left: -50px;
+}
+
+    /*portfolio end*/
+    /*hire start*/
+
+.hire_h3{
+    margin:-183px 0 0 0px;
+    font-size: 22px;
+    color: #ffffff;
+}
+    /*hire end*/
+}
+
+/*Extra Large devices (Exrtra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+	/*about me start*/
+.s_h1{
+    margin:66px 0 0 76px !important;
+    margin-bottom:16px !important;
+    font-size: 35px !important;
+}
+.s_p{
+    margin:9px 0 0 75px !important;
+    font-size:13px !important;
+}
+.progress-title h3{
+    width: 100% !important;
+    height: auto;
+    margin: 0 0 0 78px !important;
+}
+.progress{
+    margin: 0 0 0 76px !important;
+}
+.progress .progress-value{
+    right: 147px !important;
+}
+	/*about me end*/
+    /*hire start*/
+
+    /*hire end*/
+}
+/*Extra Extra large devices (Extra Extra large desktops, 1200px and up)*/
+@media (min-width: 1400px){ 
+	/*about me start*/
+/*portfolio start*/
+.tab_img{
+    padding: 10px 0;
+}
+
+/*portfolio end*/
+}  
+
+
